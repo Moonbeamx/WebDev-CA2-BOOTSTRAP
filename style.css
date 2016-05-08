@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	background-color: #CCC;
+}
+
+#container {
+	background-color: #CFF;
+}
+
+#navbar:hover {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+#navbar li a {
+	font-family: Verdana, Geneva, sans-serif;
+    display:block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: #3CF;
+}
+
+#navbar .active {
+    background-color: #666;
+}
+
+.about img {
+	position: relative;
+	top: 15px;
+	right: 10px;
+    border-radius: 50%;
+} 
+
+.jumbotron {
+	height: 200px;
+	width: inherit;
+    margin-bottom: 0px;
+    background-image: url(images/jumbotron.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+	font-family: "Courier New", Courier, monospace;
+}
+
+
+.carousel-caption {
+	margin-top: 20px;
+	font-family: "Courier New", Courier, monospace;
+}
+.carousel-caption h1 {
+	color: #3CF;
+}
+
+.carousel-caption h2 {
+	color: #333;
+}
+
+
+
+.col-md-4 {
+	font-family:"Courier New", Courier, monospace;
+}
+
+legend {
+	font-family: Verdana, Geneva, sans-serif;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+	
+}
+
+.footer {
+	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+}
+
+
+#aboutcontainer h1 {
+	color: #3CF;
+	font-size:60px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+	
+
+#aboutcontainer {
+	height: 700px;
+    margin-bottom: 0px;
+	padding: 20px;
+    background-image: url(images/myself.jpg);
+    background-position: 0% 25%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#aboutcontainer a {
+	color: #3CF;
+}
+
+
+.page-header {
+	color: #3CF;
+	font-size:60px;
+	font-family: Verdana, Geneva, sans-serif;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #3CF;
+}
+
+#refcomp a{
+	font-size: 30px;
+	color: #333;
+	font-family:"Courier New", Courier, monospace;
+	color: #333;
+	font-size:30px;
+}
+
+#refcomp a:hover {
+	color: #333;
+	background-color: #3CF;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-decoration: none;
+}
+
+#refportrait a{
+	font-size: 30px;
+	color: #333;
+	font-family:"Courier New", Courier, monospace;
+	color: #333;
+	font-size:30px;
+}
+
+#refportrait a:hover {
+	color: #333;
+	background-color: #3CF;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-decoration: none;
+}
+
+
+#refnightlife a{
+	font-size: 30px;
+	color: #333;
+	font-family:"Courier New", Courier, monospace;
+	color: #333;
+	font-size:30px;
+}
+
+#refnightlife a:hover {
+	color: #333;
+	background-color: #3CF;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-decoration: none;
+}
+
+#photoheader h1{
+	margin-top: 60px;
+	color: #3CF;
+	font-size:60px;
+	font-family: Verdana, Geneva, sans-serif;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+	
